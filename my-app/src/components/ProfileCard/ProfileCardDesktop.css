@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1200px) {
+    .card {
+        
+       width: 15.9375rem; 
+       min-height: 32.375rem;
+       flex-flow: column wrap;
+       margin: 0;
+
+    }
+    .card-profile {
+        width: 15.9375em;
+        min-height: 22.125em;
+        flex-flow: column wrap;
+        align-items: center;   
+    }
+  
+    .profile-name h1:last-of-type {
+        font-size: 2.5em;
+        font-weight: 300;
+        line-height: 47px;
+    }
+    
+    .card-profile-content {
+       
+        flex-flow: column wrap;
+        align-items: stretch;
+        justify-content: space-evenly;
+        height: 22.125em;
+        background-color: #5747EA;
+       
+    }
+    .card-profile-content img {
+        width: 4.875em;
+        height: 4.875em;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-left:2em;
+    }
+    
+    .profile-name {
+    flex-flow: column wrap;
+    justify-items: center;
+    align-content: center;
+    margin-left: 2em;
+    }
+    
+    .frequency {
+        flex-flow: column wrap;
+        justify-items: space-evenly;
+        align-content: flex-start;
+        height: 10.25em;
+        width: 15.9375em;
+        margin: 0;
+
+    }
+    
+    .frequency h1 {
+        font-size: 1.125em;
+        width: 100%;
+        margin-left:2em ;
+    }
+    
+}

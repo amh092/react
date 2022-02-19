@@ -1,0 +1,208 @@
+/* :root {
+    -Light-red-work: hsl(15, 100%, 70%);
+    -Soft-blue-play: hsl(195, 74%, 62%);    
+    -Light-red-study: hsl(348, 100%, 68%);
+    -Lime-green-exercise: hsl(145, 58%, 55%);
+    -Violet-social: hsl(264, 64%, 52%);
+    -Soft-orange-self-care: hsl(43, 84%, 65%);
+} */
+h1 {
+    font-family: Rubik;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.time-card {
+    display: flex;
+    height: 10em;
+    width: 20.4375em;
+    flex-flow: column wrap;
+    margin: 1.5em 1.5em ;
+   
+}
+
+.card-icon {
+    display: flex;
+    width: 100%;
+    height: 2.375em;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: flex-start;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: .75em .75em 0 0 ;
+    
+}
+
+.time-card-details {
+    display: flex;
+    flex-flow: column wrap;
+    height: 7.625em;
+    width: 20.4375rem;
+    background: hsl(235, 46%, 20%);
+    z-index: 3;
+    border-radius: .75em ;
+    position: relative;
+    top: -7px;
+}
+
+.title:not(img,h1) {
+    display: flex;  
+    flex-flow: row wrap;
+    width: 17.4375em;
+    height: 1.375em;
+    justify-content: space-between;
+    margin: 1.5em;
+    align-items: center;
+}
+
+.title h1 {
+
+    font-family: Rubik;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-size: 1.125em;
+    line-height: 1.375em;
+}
+
+
+.title img {
+    justify-self: right;
+    padding: 0 ;
+    margin: 0;
+}
+.time-card img {
+    opacity: .7;
+}
+
+.statistics {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 1.5em;
+}
+.statistics h1:first-of-type{
+    font-size: 2em;
+}
+
+.statistics h1:last-of-type {
+    font-size: .9375em;
+    color:#BBC0FF;
+}
+.work {
+    background: hsl(15, 100%, 70%);
+}
+
+.self-care {
+    background: hsl(43, 84%, 65%);
+}
+
+.play {
+    background: hsl(195, 74%, 62%);
+}
+
+.study {
+    background:hsl(348, 100%, 68%)
+}
+
+.exercise {
+    background: hsl(145, 58%, 55%);
+}
+
+.social {
+    background:hsl(264, 64%, 52%);
+}
+
+@media only screen and (min-width: 1200px) {
+    .time-card {
+        display: flex;
+        height: 17.789em;
+        flex-flow: column wrap;
+        margin: 0;
+        width: 15.9375em;
+    }
+    
+    .card-icon {
+        display: flex;
+        width: 100%;
+        height: 6.5em;
+        flex-flow: row wrap;
+        justify-content: right;
+        align-items: flex-start;
+        z-index: 1;
+        overflow: hidden;
+        border-radius: .75em .75em 0 0 ;
+        
+    }
+    
+    .time-card-details {
+        display: flex;
+    flex-flow: column wrap;
+    height: 12.4375em;
+    width: 15.9375em;
+    background: hsl(235, 46%, 20%);
+    z-index: 3;
+    border-radius: 0.75em;
+    position: relative;
+    top: -4em;
+    flex-direction: row;
+    align-content: space-around;
+    }
+    
+    .title:not(img,h1) {
+       
+    display: flex;
+    flex-flow: row wrap;
+    width: 15.9375em;
+    height: 1.375em;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around
+    }
+    
+    .title h1 {
+    
+        font-family: Rubik;
+        color: white;
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    
+    .title img {
+        justify-self: right;
+        padding: 0 ;
+        margin: 0;
+    }
+    .time-card img {
+        opacity: .7;
+    }
+    
+    .statistics {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 0 1.5em;
+    }
+    .statistics h1:first-of-type{
+        font-size: 3.5em;
+        line-height: 4.125rem;
+        font-weight: lighter;
+    }
+    
+    .statistics h1:last-of-type {
+        font-size: .9375em;
+        color:#BBC0FF;
+    }
+   
+  }

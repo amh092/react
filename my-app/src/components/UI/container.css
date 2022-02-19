@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E1323;
+    width: 23.4375em;
+    margin: 0 auto;
+
+    
+}
+.container {
+    width: 20.4375rem;  
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+      width: 69.375rem;
+      margin: 0 auto;
+    }
+    .container {
+        width: 15.9375em
+
+    }
+  }

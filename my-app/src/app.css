@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1200px) {
+
+    .App{
+        width: 80em;
+        display: flex;
+        flex-flow: row wrap ;
+        justify-content: left;
+        align-items: flex-start;
+        max-height: 32.375em;
+        margin-top: 10.5em;
+    
+        
+    }
+}

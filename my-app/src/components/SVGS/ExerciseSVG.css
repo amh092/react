@@ -1,0 +1,17 @@
+svg {
+    position: relative;
+    top: 0;
+    right: 1.0688em;  
+    width: 4.875em;
+    height:  4.875em;
+    fill: #000000;
+    stroke: #000000;
+    color: black;
+}
+svg path {
+position: relative;
+opacity: .1;
+fill: black;
+top: 0;
+right: 3.75em;
+}
