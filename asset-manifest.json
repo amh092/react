@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5627c7af.css",
-    "main.js": "/static/js/main.7a333c40.js",
-    "static/media/image-jeremy.png": "/static/media/image-jeremy.71cd41f11bee24c1ded3.png",
-    "index.html": "/index.html",
-    "static/media/icon-ellipsis.svg": "/static/media/icon-ellipsis.a57a4ac863593bb69d31b4399823f745.svg",
-    "main.5627c7af.css.map": "/static/css/main.5627c7af.css.map",
-    "main.7a333c40.js.map": "/static/js/main.7a333c40.js.map"
+    "main.css": "/react/static/css/main.5627c7af.css",
+    "main.js": "/react/static/js/main.32a13742.js",
+    "static/media/image-jeremy.png": "/react/static/media/image-jeremy.71cd41f11bee24c1ded3.png",
+    "index.html": "/react/index.html",
+    "static/media/icon-ellipsis.svg": "/react/static/media/icon-ellipsis.a57a4ac863593bb69d31b4399823f745.svg",
+    "main.5627c7af.css.map": "/react/static/css/main.5627c7af.css.map",
+    "main.32a13742.js.map": "/react/static/js/main.32a13742.js.map"
   },
   "entrypoints": [
     "static/css/main.5627c7af.css",
-    "static/js/main.7a333c40.js"
+    "static/js/main.32a13742.js"
   ]
 }
