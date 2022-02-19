@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react2/static/css/main.5627c7af.css",
+    "main.js": "/react2/static/js/main.785c6df8.js",
+    "static/media/image-jeremy.png": "/react2/static/media/image-jeremy.71cd41f11bee24c1ded3.png",
+    "index.html": "/react2/index.html",
+    "static/media/icon-ellipsis.svg": "/react2/static/media/icon-ellipsis.a57a4ac863593bb69d31b4399823f745.svg",
+    "main.5627c7af.css.map": "/react2/static/css/main.5627c7af.css.map",
+    "main.785c6df8.js.map": "/react2/static/js/main.785c6df8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5627c7af.css",
+    "static/js/main.785c6df8.js"
+  ]
+}
