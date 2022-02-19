@@ -56,7 +56,7 @@ default  :
                 <div className="time-card-details">
                     <div className="title"> 
                         <h1>{props.title}</h1>
-                        <img src={Ellipsis}/>
+                        <img src={Ellipsis} alt="Ellipsis dots"/>
                     </div>
                     <div className="statistics">
                         <h1>{props.hours} </h1>

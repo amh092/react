@@ -44,7 +44,7 @@ const ProfileCard = (props) => {
       <Container>
         <div className="card-profile">
           <div className="card-profile-content">
-            <img src={require("../../images/image-jeremy.png")} />
+            <img src={require("../../images/image-jeremy.png")} alt="Jeremy" />
             <div className="profile-name">
               <h1>Report for</h1>
               <h1>{props.name}</h1>
