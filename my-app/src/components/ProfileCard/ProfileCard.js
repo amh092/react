@@ -6,7 +6,7 @@ import Container from "../UI/Container";
 
 const ProfileCard = (props) => {
  
-  const [frequency, setFrequency] = useState('day')
+  const [frequency, setFrequency] = useState('week')
 
   const [day, setDaily] = useState(true);
   const [week, setWeekly] = useState(false);
