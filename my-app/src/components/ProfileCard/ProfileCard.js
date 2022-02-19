@@ -8,8 +8,8 @@ const ProfileCard = (props) => {
  
   const [frequency, setFrequency] = useState('week')
 
-  const [day, setDaily] = useState(true);
-  const [week, setWeekly] = useState(false);
+  const [day, setDaily] = useState(false);
+  const [week, setWeekly] = useState(true);
   const [month, setMonthly] = useState(false);
 
   const dailyHandler = () => {
