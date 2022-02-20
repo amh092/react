@@ -7,6 +7,10 @@
     -Soft-orange-self-care: hsl(43, 84%, 65%);
 } */
 @import 'https://fonts.google.com/specimen/Rubik';
+
+* {
+    font-family: Rubik;
+}
 h1 {
     font-family: Rubik;
     color: white;
