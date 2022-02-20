@@ -96,6 +96,7 @@ h1 {
 }
 .statistics h1:first-of-type{
     font-size: 2em;
+    width: 100%;
 }
 
 .statistics h1:last-of-type {
