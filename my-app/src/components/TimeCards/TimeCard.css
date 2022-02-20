@@ -6,6 +6,7 @@
     -Violet-social: hsl(264, 64%, 52%);
     -Soft-orange-self-care: hsl(43, 84%, 65%);
 } */
+@import 'https://fonts.google.com/specimen/Rubik';
 h1 {
     font-family: Rubik;
     color: white;
