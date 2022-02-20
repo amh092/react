@@ -40,7 +40,7 @@ h1 {
     
 }
 
-.card-icon  > div  {
+.card-icon  > div:first-of-type  {
     justify-self: right;
     padding: 0 ;
     margin: 0;
@@ -96,7 +96,7 @@ h1 {
 }
 .statistics h1:first-of-type{
     font-size: 2em;
-    width: 100%;
+    
 }
 
 .statistics h1:last-of-type {
@@ -208,6 +208,7 @@ h1 {
         font-size: 3.5em;
         line-height: 4.125rem;
         font-weight: lighter;
+        width: 100%;
     }
     
     .statistics h1:last-of-type {
