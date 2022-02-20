@@ -40,6 +40,12 @@ h1 {
     
 }
 
+.card-icon  > div > * {
+    justify-self: right;
+    padding: 0 ;
+    margin: 0;
+}
+
 .time-card-details {
     display: flex;
     flex-flow: column wrap;
@@ -79,9 +85,7 @@ h1 {
     padding: 0 ;
     margin: 0;
 }
-.time-card img {
-    opacity: .7;
-}
+
 
 .statistics {
     display: flex;
