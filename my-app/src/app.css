@@ -1,5 +1,10 @@
-@import 'https://fonts.google.com/specimen/Rubik';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
 @media only screen and (min-width: 1200px) {
+
 
     .App{
         width: 80em;
